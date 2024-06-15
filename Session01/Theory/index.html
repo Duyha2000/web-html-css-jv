@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!--1. Thẻ Inline: trên 1 dòng, nội dung từ trái qua phải, hết dòng xuống dòng mới -->
+    <!-- 1 số inline hay gặp: a, span, img, br, button, input -->
+
+    <!--Inline br, button, input,label, -->
+    <!-- Block: header,nav, section,footer, form -->
+
+    <form action="">
+      <label for="">Enter text:</label>
+      <input type="text" placeholder="Nhập từ khóa" />
+      <button onclick="handleShowAlert()">Click me!</button>
+    </form>
+
+    <a>Title</a>
+    <span>Description</span>
+    <img src="http://placehold.it/450x250.jpg" alt="" />
+    <span
+      >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit natus sed
+      nobis rerum eligendi inventore, itaque quidem repellat accusantium ducimus
+      rem tenetur, soluta adipisci earum. Ab ipsum molestias accusamus
+      tenetur.</span
+    >
+    <!--2. Thẻ Block: khối -->
+    <p style="background-color: gray">Description</p>
+    <div style="background-color: rgb(139, 92, 92)">Container</div>
+    <h1 style="background-color: rgb(86, 32, 32)">Container</h1>
+  </body>
+
+  <script>
+    const handleShowAlert = () => {
+      alert("Xin chao!!!!");
+    };
+  </script>
+</html>
