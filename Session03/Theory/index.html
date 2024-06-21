@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Form là 1 biểu mẫu để nhập các thông tin trong đấy rồi gửi đi -->
+    <!-- Input là ô để nhập -->
+    <!-- Label: xem thông tin của ô input -->
+    <form style="background-color: gray">
+      <!-- label, input là inline, block? -->
+      <!-- label có thuộc tính: for -->
+      <!-- input có thuộc tính: id -->
+      <!-- for của label = id của input  -->
+      <!-- Thông thường ở 1 form thì sẽ nhảy vào ô input đầu tiên luôn để mình nhập thông tin: autofocus -->
+      <div>
+        <label for="fullName">Họ và tên:</label>
+        <!-- input: placeholder: gợi ý dòng input -->
+        <input
+          id="fullName"
+          type="text"
+          placeholder="Nhập họ và tên"
+          autofocus
+        />
+      </div>
+
+      <!-- input type="kiểu input" -->
+      <!-- type: text : dưới dạng 1 dòng text -->
+      <!-- password: hiện dấu chấm tròn -->
+
+      <div>
+        <!-- <br /> break: xuống dòng -->
+        <!-- Bọc label, input trong 1 thẻ block -->
+        <!-- Ví dụ 1 thẻ block -1 khối: h1, h6,div,section -->
+        <label for="password">Nhập mật khẩu</label>
+        <input id="password" type="password" placeholder="Nhập mật khẩu" />
+      </div>
+
+      <!-- Chọn ngày tháng năm: input: type= date -->
+      <div>
+        <label>Chọn ngày:</label>
+        <input type="date" />
+        <input type="time" />
+      </div>
+
+      <div>
+        <label>Nhập số điện thoại</label>
+        <input type="number" placeholder="Nhập sdt" />
+      </div>
+
+      <div>
+        <label>Nhập địa chỉ</label>
+        <input type="text" placeholder="Nhập địa chỉ" />
+      </div>
+
+      <!-- Select - option: lựa chọn các trường hợp -->
+      <div>
+        <label>Chọn giới tính của bạn</label>
+        <select>
+          <option>Nam</option>
+          <option>Nữ</option>
+          <option>Gay</option>
+        </select>
+      </div>
+      <!-- input radio, checkbox -->
+      <!-- button: 1 nút để bấm gửi các dữ liệu đã nhập -->
+      <!-- <input type="checkbox" />: chọn thông tin để tick -->
+      <div>
+        <label>Chọn độ tuổi của bạn</label>
+        <br />
+        <input type="radio" /> <span> >10 tuổi </span> <input type="radio" />
+        <span> >13 tuổi </span> <input type="radio" /> Trên 18 tuổi
+      </div>
+
+      <div>
+        <input type="checkbox" />
+        <span>Tôi đã đọc kỹ điều khoản</span>
+      </div>
+
+      <!-- textarea: text:đoạn chữ, area: diện tích -->
+      <div>
+        <label>Nhập thông tin</label>
+        <textarea placeholder="Nhập nội dung" rows="3" cols="30"></textarea>
+      </div>
+
+      <button>Gửi thông tin</button>
+    </form>
+  </body>
+</html>

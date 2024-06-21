@@ -1,0 +1,20 @@
+li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+h1 {
+  font-size: 35px;
+}
+/* css cho đường viền */
+/* solid: nét liền (99%) */
+/* dashed: nét đứt */
+div {
+  border: 1px solid red;
+
+  /* border: 1px dashed gray; */
+  width: 300px;
+}
+
+/* tạo màu nền background */
+/* background-color: black */
