@@ -1,0 +1,31 @@
+span {
+  font-weight: 700;
+}
+
+footer {
+  /*  */
+  background-color: yellow;
+  /* tạo khoảng cách bên trong phần tử */
+  /* bên trong : padding */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  /* bên ngoài: margin */
+}
+
+h1 {
+  color: #dede31de;
+}
+
+.text-1 {
+  color: blue;
+}
+
+.text-2 {
+  color: green;
+}
+
+.text-3 {
+  color: red;
+  font-weight: 600;
+}

@@ -1,0 +1,39 @@
+h1 {
+  color: red;
+  /* css chữ cho thẻ h1: */
+  font-weight: 100;
+  /* font-weight: độ đậm nhạt của chữ (font-weight > 500 là chữ đậm, <500 là chữ nhạt)
+  */
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  /* chỉnh kích thước của chữ: từ 20 -> 40px */
+  font-size: 40px;
+  /* text-align: center (giữa dòng) */
+  text-align: center;
+}
+
+/* mất dấu . thẻ li */
+li {
+  list-style: none;
+  /* Tạo đường viền */
+  border: 1px solid gray;
+  /* Tăng kích thước nội dung bên trong phần tử */
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+  /* Tạo khoảng cách bên ngoài các phần tử */
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* thẻ block: text-align: center (nội dung đoạn text sẽ được ra giữa)*/
+
+a {
+  color: black;
+  /* mất dấu gạch chân */
+  text-decoration: none;
+  /* chữ đậm */
+  font-weight: 700;
+  /* size: kích thước */
+  font-size: 20px;
+}

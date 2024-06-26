@@ -7,13 +7,93 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Chào mừng đến trang web của tôi</h1>
+    <!-- <h1>Chào mừng đến trang web của tôi</h1>
     <p>
       Đây là trang web đầu tiên của tôi.Tôi đang học lập trình web và đây là sản
       phẩm đầu tiên của tôi
     </p>
 
     <img src="http://placehold.it/450x250.jpg" alt="" />
-    <p>Trang web được tạo bởi tôi</p>
+    <p>Trang web được tạo bởi tôi</p> -->
+
+    <!-- th: table header -->
+    <!-- tr: table row -->
+    <!-- td: table data -->
+    <table border="1">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+        </tr>
+
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+        </tr>
+
+        <tr>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Registration Form</p>
+    <form>
+      <!-- 1 thẻ div sẽ bọc lại input và label -->
+      <!-- placeholder: gợi ý -->
+      <!-- autofocus: khi vào trang web sẽ bay vào ô input đầu tiên -->
+      <!-- for của label = id của input thì khi click vào label sẽ nhảy xuống ô input -->
+      <div>
+        <label for="firstName">First Name</label>
+        <br />
+        <input
+          type="text"
+          id="firstName"
+          placeholder="Enter your name"
+          autofocus
+        />
+      </div>
+
+      <div>
+        <label for="lastName">Last Name</label>
+        <br />
+        <input id="lastName" type="text" placeholder="Enter your last name" />
+      </div>
+
+      <div>
+        <label for="birthday">Birthday</label>
+        <br />
+        <input type="date" id="birthday" />
+        <br />
+      </div>
+
+      <div>
+        <label for="gender">Gender</label>
+        <br />
+        <input type="radio" id="male" /> Nam
+        <input type="radio" id="female" /> Nữ
+      </div>
+
+      <div>
+        <label for="subject">Subject</label>
+        <br />
+
+        <select name="" id="">
+          <option value="">anh Duy</option>
+          <option value="">em Tiến</option>
+        </select>
+      </div>
+
+      <button>Submit</button>
+    </form>
   </body>
 </html>
