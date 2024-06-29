@@ -1,0 +1,42 @@
+.form {
+  width: 500px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+.label {
+  /* Chữ đậm: */
+  font-weight: 700;
+  font-size: 18px;
+  /* Tạo khoảng cách giữa label - input */
+  /* margin: Tạo khoảng cách giữa 2 phần tử khác nhau
+  padding: Tạo khoảng cách bên trong phần tử */
+}
+.field {
+  margin-bottom: 20px;
+}
+
+/* CSS có thể dùng id hoặc class */
+/* CSS cho class: dùng . */
+/* CSS cho ID: dùng # */
+#fullName,
+#email,
+#message {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: green;
+  font-size: 18px;
+  /* Đường viền:  */
+  border: none;
+  /* Bo tròn đường viền: border-radius*/
+  border-radius: 8px;
+}

@@ -1,0 +1,93 @@
+/* Tự tạo khoảng cách các phần tử cho mình? */
+/* Trình duyệt sẽ tự động tính padding - margin: cần reset lại */
+/* Khi tạo 1 file css, gõ css reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #3dbaa3;
+  font-family: "Inter", sans-serif;
+}
+.form {
+  background-color: white;
+  width: 500px;
+  /* Giữa: center*/
+  /* margin: 0 auto căn giữa thẻ block */
+  margin: 0 auto;
+  /* Làm thế nào thẻ form sẽ cách body phía trên 30px  */
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #3dbaa3;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  transition: all 0.3s linear;
+}
+
+.title:hover {
+  opacity: 0.75;
+  color: black;
+}
+
+.button {
+  background-color: #3dbaa3;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+
+  /* transition: chuyển động */
+  transition: all 0.3s ease-in;
+}
+/* Khi chạm vào button sẽ có bóng mờ, và làm mờ đi button đấy */
+.button:hover {
+  /* độ sáng nhạt */
+  opacity: 0.75;
+}
+
+/* 1, CSS reset: trình duyệt mặc định tạo padding, margin nhìn rất xấu -> Gõ css reset */
+/* 2, Lấy font chữ trên google
+2.1 Vào google gõ inter/ google font 
+  -> Get font -> Dán 3 thẻ link vào trong thẻ head ở html
+  -> Trong css set body là font-famaly: inter...
+  3, Hover: chạm vào
+  Ví dụ: khi chạm vào button thì thẻ button sẽ mờ đi (dùng :hover)
+  -> transition là thời gian chuyển động (nên để transition: all 0.3s ease-in)
+ */
